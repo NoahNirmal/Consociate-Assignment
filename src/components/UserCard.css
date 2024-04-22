@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f6f8fa; /* Light gray background */
+  border: 1px solid #e1e4e8; /* Slightly darker border */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  
+    
+}
+
+.card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.card div {
+  flex-grow: 1;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 16px;
+}
